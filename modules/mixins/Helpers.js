@@ -148,6 +148,10 @@ var Helpers = {
         scroller.scrollTo(to, _extends({}, _this2.state, props));
       };
 
+      this.scrollToX = function (to, props) {
+        scroller.scrollToX(to, _extends({}, _this2.state, props));
+      };
+
       this.handleClick = function (event) {
 
         /*
